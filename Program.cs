@@ -10,7 +10,12 @@ namespace Part_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            string firstName = "Noah";
+            string favMovie = "The Matrix";
+            Console.WriteLine("Hello, " + firstName + "! " + "your favourite" + " " +
+                "movie is " + (favMovie) + ".".ToLower());
+
+
 
             Console.ReadLine();
         }
